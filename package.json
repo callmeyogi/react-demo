@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-dev": "./node_modules/.bin/webpack",
-    "build-prod": "NODE_ENV=production ./node_modules/.bin/webpack",
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "build-dev": "webpack",
+    "build-prod": "NODE_ENV=production webpack",
+    "dev": "webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
